@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <link href="./index.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Section 1 -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/slide1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Titulo One</h5>
+          <p>Exercitation reprehenderit ullamco deserunt fugiat qui. Veniam ipsum dolor quis pariatur cillum adipisicing magna quis consectetur incididunt tempor ex eu. Ad magna non ad nisi deserunt. Cupidatat duis id amet cupidatat. Reprehenderit excepteur quis eu voluptate aliquip. Culpa labore minim ullamco aliqua est amet proident. Fugiat in amet ex eiusmod ad consequat voluptate consectetur esse.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/slide2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Titulo Two</h5>
+          <p>Do voluptate quis anim commodo. Ipsum magna aute tempor anim. Esse culpa mollit enim duis reprehenderit esse labore. Laboris esse in anim reprehenderit ad dolore. Amet ut anim dolore officia labore pariatur. Quis ut laboris minim elit mollit tempor culpa ut magna est culpa.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/slide3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Titulo Tree</h5>
+          <p>Dolor cupidatat commodo ad laborum. Aliquip est et dolor enim culpa. Laborum est Lorem enim non enim commodo et id.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Section 2 -->
+  <div class="container text-center bg-white my-5">
+    <h2 class="font-xl">Lorem, ipsum dolor</h2>
+    <p class="px-1 py-2">
+      Non in in qui fugiat do laborum commodo proident ex eu aliquip anim consectetur.Ad qui voluptate adipisicing et reprehenderit nostrud nisi et sunt anim incididunt proident occaecat. Qui voluptate velit nostrud labore ullamco qui irure aliquip elit eu commodo. Sit in pariatur ex et. Voluptate laboris consectetur adipisicing ut consectetur nisi qui aliqua duis consequat anim duis et exercitation.
+    </p>
+    <div class="d-flex justify-content-md-between justify-content-center flex-wrap py-4">
+      <div class="card my-2" style="width: 18rem;">
+        <img src="./assets/slide1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card my-2" style="width: 18rem;">
+        <img src="./assets/slide2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card my-2" style="width: 18rem;">
+        <img src="./assets/slide3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section 3 -->
+  <div class="bg-light py-4">
+    <div class="container">
+      <h2 class="font-xl">Hello World!</h2>
+      <p>
+        Et pariatur magna do anim labore sint aliquip eiusmod id ullamco sunt fugiat reprehenderit sint. Nisi adipisicing mollit do ea consequat non incididunt officia cillum aute tempor. Adipisicing do ipsum reprehenderit amet officia non aute. Magna exercitation eiusmod dolore cillum culpa non reprehenderit Lorem sit aliqua consequat. Consectetur ut tempor enim cillum consequat Lorem dolore incididunt magna occaecat.
+      </p>
+      <hr />
+      <p>
+        Mollit duis magna anim ad fugiat mollit eu.
+      </p>
+      <button class="btn btn-primary">
+        See now
+      </button>
+    </div>
+  </div>
+  <!-- Section 4 -->
+  <div class="container py-5">
+    <h2 class="font-xl">Lorem, ipsum dolor</h2>
+    <p class="px-1 py-2">
+      Non in in qui fugiat do laborum commodo proident ex eu aliquip anim consectetur.Ad qui voluptate adipisicing et reprehenderit nostrud nisi et sunt anim incididunt proident occaecat. Qui voluptate velit nostrud labore ullamco qui irure aliquip elit eu commodo. Sit in pariatur ex et. Voluptate laboris consectetur adipisicing ut consectetur nisi qui aliqua duis consequat anim duis et exercitation.
+    </p>
+    <div class="row">
+      <!-- Collapse -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Esse amet cillum nulla do reprehenderit commodo aute dolore Lorem non nulla mollit ullamco. Magna enim non sint excepteur. Ullamco voluptate deserunt ipsum est eu. Elit exercitation pariatur laborum sint aliqua reprehenderit aute.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Laborum velit ad cupidatat consequat laborum. Cupidatat exercitation pariatur labore ullamco exercitation tempor consectetur labore proident. In cupidatat quis eiusmod nulla aute Lorem sit proident. Aliquip quis enim exercitation magna dolor velit. Ex sunt deserunt velit anim voluptate laborum anim sint adipisicing tempor exercitation amet. Ut esse ex laborum veniam tempor ullamco incididunt velit.
+                </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Cillum ullamco sunt ex duis anim aute duis. Commodo ad aute sint amet duis cupidatat ad nulla. Sunt quis aliqua aliqua proident nisi aliqua anim quis eu ad consectetur deserunt. Exercitation ipsum exercitation ullamco excepteur velit nisi ea.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- List group -->
+      <div class="col-md-6">
+        <img src="./assets/slide1.jpg" class="img-fluid" alt="...">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item active" aria-current="true">An active item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Section 5 -->
+  <div class="bg-dark py-4">
+    <div class="container text-center text-white">
+      Reprehenderit mollit sint veniam deserunt Lorem. Ea in laboris aliquip occaecat cillum adipisicing. Veniam adipisicing velit aliqua laboris voluptate eiusmod
+      reprehenderit mollit sint veniam deserunt Lorem. Ea in laboris aliquip occaecat cillum adipisicing. Veniam adipisicing velit aliqua laboris voluptate eiusmod eiusmod cupidatat sit.
+    </div>
+  </div>
+</body>
+</html>
